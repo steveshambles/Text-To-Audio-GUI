@@ -1,0 +1,111 @@
+Text To Audio V0.48 (first release)
+Freeware by Steve Shambles.
+March 2021
+https://stevepython.wordpress.com
+
+Tested on Windows 7 and Linux Mint 19.1.
+Internet connection required.
+
+TTA will convert text that you have pasted or typed 
+into the TTA editor into an mp3 file using Google translate.
+
+Quick demo:
+------------
+To see a quick demo, load up TTA, right click your mouse over
+the editor and select "Paste demo text", some text will appear
+in the editor.
+
+Now click "Convert to audio", using the button below the editor.
+Now wait for the speech to play.
+
+All the options via the mouse menu and the buttons are very simple
+and straight forward and do not really need explanation, but for
+completeness I will give a brief overview.
+
+Drop-down menu:
+---------------
+Help - This file.
+
+About - version info pop up.
+
+Python source code on GitHub - Takes you to the GitHub web page.
+
+Visit my Blog - Takes you to my Blog page about Python programming
+                and my memoirs. 
+
+Contact Me - Takes you to my contact page where you can mail me.
+
+Make a small donation via PayPal - Should you really find TTA useful
+and want to make me happy to continue knock out more stuff for free
+or update TTA with more features and fixes then a fiver or tenner
+would go down a treat, you know it makes sense.
+
+Buttons:
+--------
+Paste Text - If there is any text on the clipboard it will be
+             pasted into the editor.
+
+Clear Text - Will clear the editor of text.
+
+Convert To Audio - If there is some text in the editor it
+                   will be converted to speech and saved in an mp3 
+				   file on your drive and then automatically played
+				   back using your systems default player for mp3s.
+
+View MP3s - Will open TTA's mp3s folder on your drive using your systems
+            default file viewer. Here you can replay, copy and delete
+			previously made mp3s.
+			All files are uniquely named using a timestamp.
+	
+
+Right mouse menu:
+-----------------
+Paste - Same as paste Text button.
+
+Copy All - Will copy all the text in the editor to the clipboard.
+           This is in case you want to save a copy of the text
+		   that you may have typed in or edited.
+
+Clear Text - Same as clear Text button
+
+Clear clipboard - Just in case you need an empty clipboard.
+
+Paste demo text - Clicking this quickly pastes a few silly jokes into
+                  the editor for quick testing purposes, 
+				  it is always available, even after the 
+				  clipboard has been cleared.
+
+Backgrounds - Just select your preferred background colour, 
+              to help keep eye strain low. 
+			  My fav is currently yellow at night and blue in day.
+
+Tips:
+-----
+The status bar at the bottom of the editor will keep you informed
+of what is going on.
+
+Google translate will only allow small bits of text
+to be processed by each call, TTA will keep calling GT until
+all your text has be processed, but this can sometimes cause
+a small pause where its not wanted. 
+As far as I can tell this is currently unavoidable. 
+
+So break your text up into small paragraphs and short
+line lengths where possible.
+
+Currently the voice you get is not changeable.
+The voice you get varies from system to system.
+
+If the voice says a word the wrong way then try changing the
+spelling to make it say it how you want.
+
+Enjoy.
+Steve Shambles
+March 2021 (I've just had my first Covid jab!)
+
+
+Python programmers
+--------------------
+create your own executable with pyinstaller:
+
+pyinstaller txt2audio-48.py -n txt2audio-48 --windowed --onefile
