@@ -10,3 +10,7 @@ If yoiu want the windows executable version:
 
 https://www.mediafire.com/file/tgbh5cxpaimjkoe/TextToAudio-V048-all-files-and-win-exe.zip/file
 
+Home page:
+
+https://stevepython.wordpress.com/2021/03/09/python-text-to-audio-gui/
+
